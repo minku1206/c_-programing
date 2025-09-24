@@ -14,9 +14,9 @@ int main(){
     scanf("%d",&c);
 
     //Check condition
-    if(a>b && b>a){
+    if(a>b){
         printf("%d is largest number.\n",a);
-    }else if(b>c && c>b){
+    }else if(b>c){
         printf("%d is largest number.\n",b);
     }else{
         printf("%d is largest number.\n",c);
